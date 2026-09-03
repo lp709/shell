@@ -1,11 +1,22 @@
 ##Documents *.sh
+:code:
+:note:
+:syntax:
 
 #Como dar permisao para executar um script *.sh
 
-:code:
+::
 	chmod +x [nome_do_arquivo.sh]
 
 #como executar um script *.sh
 
-:code:
+::
 	./nome_do_script.sh
+         
+               or
+
+       . nome_do_script.sh
+
+		or 
+
+	source nome_do_script.sh
